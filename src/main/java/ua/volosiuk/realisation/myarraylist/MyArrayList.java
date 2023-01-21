@@ -1,4 +1,36 @@
 /*
+constructors:
+MyArrayList();
+MyArrayList(int initCapacity);
+
+implemented methods:
++size();
++isEmpty();
++contains(Object o);
++add(E o);
++add(int index, E element);
++remove(Object o);
++clear();
++get(int index);
++set(int index, E element);
++remove(int index);
++indexOf(Object o);
++lastIndexOf(Object o);
+show();
+
+
+not implemented metods:
+Iterator iterator();
+toArray();
+addAll(Collection c);
+addAll(int index, Collection c);
+ListIterator listIterator();
+ListIterator listIterator(int index);
+subList(int fromIndex, int toIndex);
+retainAll(Collection c);
+removeAll(Collection c);
+containsAll(Collection c);
+toArray(Object[] a);
     System.arraycopy
     Objects.checkIndex
 */
